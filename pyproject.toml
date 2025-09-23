@@ -1,0 +1,13 @@
+[build-system]
+requires = ["hatchling>=1.18.0"]
+build-backend = "hatchling.build"
+
+[project]
+name = "sieve-app-demo"
+version = "0.1.0"
+description = "Demo app that depends on sieve-core."
+requires-python = ">=3.11"
+dependencies = [
+  "sieve-core @ git+https://github.com/sievestack/sieve-core@5e96c8b263b1899aa4f395f832191f41b97b9f3f"
+]
+
