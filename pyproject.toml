@@ -11,3 +11,6 @@ dependencies = [
   "sieve-core @ git+https://github.com/sievestack/sieve-core@5e96c8b263b1899aa4f395f832191f41b97b9f3f"
 ]
 
+[tool.hatch.metadata]
+allow-direct-references = true
+
